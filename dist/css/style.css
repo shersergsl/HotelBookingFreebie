@@ -1,35 +1,351 @@
 @font-face {
-  font-family: CormorantUpright;
-  font-display: swap;
-  src: url("../fonts/CormorantUpright-Bold.woff2") format("woff2"), url("../fonts/CormorantUpright-Bold.woff") format("woff");
-  font-weight: 700;
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-Black.eot");
+  src: local("../fonts/Mulish Black"), local("../fonts/Mulish-Black"), url("../fonts/Mulish-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Mulish-Black.woff2") format("woff2"), url("../fonts/Mulish-Black.woff") format("woff"), url("../fonts/Mulish-Black.ttf") format("truetype");
+  font-weight: 900;
   font-style: normal;
 }
 @font-face {
-  font-family: CormorantUpright;
-  font-display: swap;
-  src: url("../fonts/CormorantUpright-Regular.woff2") format("woff2"), url("../fonts/CormorantUpright-Regular.woff") format("woff");
-  font-weight: 400;
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-BlackItalic.eot");
+  src: local("../fonts/Mulish Black Italic"), local("../fonts/Mulish-BlackItalic"), url("../fonts/Mulish-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Mulish-BlackItalic.woff2") format("woff2"), url("../fonts/Mulish-BlackItalic.woff") format("woff"), url("../fonts/Mulish-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-ExtraBoldItalic.eot");
+  src: local("../fonts/Mulish ExtraBold Italic"), local("../fonts/Mulish-ExtraBoldItalic"), url("../fonts/Mulish-ExtraBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Mulish-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/Mulish-ExtraBoldItalic.woff") format("woff"), url("../fonts/Mulish-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-MediumItalic.eot");
+  src: local("../fonts/Mulish Medium Italic"), local("../fonts/Mulish-MediumItalic"), url("../fonts/Mulish-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Mulish-MediumItalic.woff2") format("woff2"), url("../fonts/Mulish-MediumItalic.woff") format("woff"), url("../fonts/Mulish-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-Medium.eot");
+  src: local("../fonts/Mulish Medium"), local("../fonts/Mulish-Medium"), url("../fonts/Mulish-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Mulish-Medium.woff2") format("woff2"), url("../fonts/Mulish-Medium.woff") format("woff"), url("../fonts/Mulish-Medium.ttf") format("truetype");
+  font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: CormorantUpright;
-  font-display: swap;
-  src: url("../fonts/CormorantUpright-SemiBold.woff2") format("woff2"), url("../fonts/CormorantUpright-SemiBold.woff") format("woff");
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-SemiBoldItalic.eot");
+  src: local("../fonts/Mulish SemiBold Italic"), local("../fonts/Mulish-SemiBoldItalic"), url("../fonts/Mulish-SemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Mulish-SemiBoldItalic.woff2") format("woff2"), url("../fonts/Mulish-SemiBoldItalic.woff") format("woff"), url("../fonts/Mulish-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-BoldItalic.eot");
+  src: local("../fonts/Mulish Bold Italic"), local("../fonts/Mulish-BoldItalic"), url("../fonts/Mulish-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Mulish-BoldItalic.woff2") format("woff2"), url("../fonts/Mulish-BoldItalic.woff") format("woff"), url("../fonts/Mulish-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-ExtraBold.eot");
+  src: local("../fonts/Mulish ExtraBold"), local("../fonts/Mulish-ExtraBold"), url("../fonts/Mulish-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Mulish-ExtraBold.woff2") format("woff2"), url("../fonts/Mulish-ExtraBold.woff") format("woff"), url("../fonts/Mulish-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-LightItalic.eot");
+  src: local("../fonts/Mulish Light Italic"), local("../fonts/Mulish-LightItalic"), url("../fonts/Mulish-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Mulish-LightItalic.woff2") format("woff2"), url("../fonts/Mulish-LightItalic.woff") format("woff"), url("../fonts/Mulish-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-Light.eot");
+  src: local("../fonts/Mulish Light"), local("../fonts/Mulish-Light"), url("../fonts/Mulish-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Mulish-Light.woff2") format("woff2"), url("../fonts/Mulish-Light.woff") format("woff"), url("../fonts/Mulish-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-Bold.eot");
+  src: local("../fonts/Mulish Bold"), local("../fonts/Mulish-Bold"), url("../fonts/Mulish-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Mulish-Bold.woff2") format("woff2"), url("../fonts/Mulish-Bold.woff") format("woff"), url("../fonts/Mulish-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-ExtraLightItalic.eot");
+  src: local("../fonts/Mulish ExtraLight Italic"), local("../fonts/Mulish-ExtraLightItalic"), url("../fonts/Mulish-ExtraLightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Mulish-ExtraLightItalic.woff2") format("woff2"), url("../fonts/Mulish-ExtraLightItalic.woff") format("woff"), url("../fonts/Mulish-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-Regular.eot");
+  src: local("../fonts/Mulish Regular"), local("../fonts/Mulish-Regular"), url("../fonts/Mulish-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Mulish-Regular.woff2") format("woff2"), url("../fonts/Mulish-Regular.woff") format("woff"), url("../fonts/Mulish-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-ExtraLight.eot");
+  src: local("../fonts/Mulish ExtraLight"), local("../fonts/Mulish-ExtraLight"), url("../fonts/Mulish-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/Mulish-ExtraLight.woff2") format("woff2"), url("../fonts/Mulish-ExtraLight.woff") format("woff"), url("../fonts/Mulish-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-Italic.eot");
+  src: local("../fonts/Mulish Italic"), local("../fonts/Mulish-Italic"), url("../fonts/Mulish-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Mulish-Italic.woff2") format("woff2"), url("../fonts/Mulish-Italic.woff") format("woff"), url("../fonts/Mulish-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-SemiBold.eot");
+  src: local("../fonts/Mulish SemiBold"), local("../fonts/Mulish-SemiBold"), url("../fonts/Mulish-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Mulish-SemiBold.woff2") format("woff2"), url("../fonts/Mulish-SemiBold.woff") format("woff"), url("../fonts/Mulish-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
-  font-family: TTTrailers;
-  font-display: swap;
-  src: url("../fonts/TTTrailers-Regular.woff2") format("woff2"), url("../fonts/TTTrailers-Regular.woff") format("woff");
-  font-weight: 400;
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?5jb2te");
+  src: url("../fonts/icomoon.eot?5jb2te#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?5jb2te") format("truetype"), url("../fonts/icomoon.woff?5jb2te") format("woff"), url("../fonts/icomoon.svg?5jb2te#icomoon") format("svg");
+  font-weight: normal;
   font-style: normal;
+  font-display: block;
 }
-body {
-  font-family: CormorantUpright;
-  font-size: 50px;
+[class^=icon-], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-body span {
-  color: red;
+
+.icon-calendar:before {
+  content: "\e900";
+}
+
+.icon-call-footer:before {
+  content: "\e901";
+}
+
+.icon-facebook:before {
+  content: "\e902";
+}
+
+.icon-facebook2:before {
+  content: "\e903";
+}
+
+.icon-gps:before {
+  content: "\e904";
+}
+
+.icon-gps2:before {
+  content: "\e905";
+}
+
+.icon-home:before {
+  content: "\e906";
+}
+
+.icon-instagram:before {
+  content: "\e907";
+}
+
+.icon-mail:before {
+  content: "\e908";
+}
+
+.icon-phone-call:before {
+  content: "\e909";
+}
+
+.icon-search1:before {
+  content: "\e90a";
+}
+
+.icon-select-arrow:before {
+  content: "\e90b";
+}
+
+.icon-shopping:before {
+  content: "\e90c";
+}
+
+.icon-skobki:before {
+  content: "\e90d";
+}
+
+.icon-skobki2:before {
+  content: "\e90e";
+}
+
+.icon-star:before {
+  content: "\e90f";
+}
+
+.icon-strelka:before {
+  content: "\e910";
+}
+
+.icon-strelrf2:before {
+  content: "\e911";
+}
+
+.icon-twitter:before {
+  content: "\e912";
+}
+
+.icon-user:before {
+  content: "\e913";
+}
+
+.icon-youtube:before {
+  content: "\e914";
+}
+
+.icon-call-footer1:before {
+  content: "\e915";
+}
+
+.icon-gps1:before {
+  content: "\e916";
+}
+
+.icon-gps21:before {
+  content: "\e917";
+}
+
+.icon-phone-call1:before {
+  content: "\e918";
+}
+
+.icon-search11:before {
+  content: "\e919";
+}
+
+.icon-shopping1:before {
+  content: "\e91a";
+}
+
+.test {
+  background-color: red;
+}
+
+.markup {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1480px;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.avatar {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.shopping_mean {
+  width: 20px;
+  height: 20px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: red;
+  margin: 0 0 -7px 14px;
+}
+
+.icon-shopping1 {
+  font-size: 28px;
+}
+
+.Nathan {
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+.icon-select-arrow {
+  font-size: 16px;
+  line-height: 44px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  height: 42px;
+  padding-left: 10px;
+  border: 1px solid #F5FAFE;
+  border-radius: 5px;
+  outline: none;
+  background: #F5FAFE;
+  color: #9E9C9C;
+}
+
+button {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  width: 42px;
+  height: 42px;
+  border: none;
+  background: #EC1F46;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.header_menu {
+  background-color: #0b2470;
+  width: 100%;
+  height: 80px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1480px;
+  height: 80px;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  color: white;
+  margin: 0 auto;
+  padding: 0 20px;
+  list-style: none;
+}
+
+.icon-search11 {
+  color: white;
 }
