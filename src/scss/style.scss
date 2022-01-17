@@ -1,6 +1,18 @@
 @import "fonts";
-@import "test";
-
+body{
+	background-color: #F5FAFE;
+	font-family: Mulish;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 18px;
+	margin: 0;
+	padding: 0;
+	color: rgb(255, 255, 255);
+}
+.header_app{
+	background-color:rgb(255, 255, 255);
+}
 .markup{
 	margin: 0 auto;
 	padding: 0 20px;
@@ -29,6 +41,7 @@
 }
 .icon-shopping1{
 	font-size: 28px;
+	color: #000;
 }
 .Nathan{
 	font-family: Mulish;
@@ -36,10 +49,12 @@
 	font-style: normal;
 	font-weight: 400;
 	line-height: 44px;
+	color: #000;
 }
 .icon-select-arrow{
 	font-size: 16px;
 	line-height: 44px;
+	color: #000;
 }
 * {box-sizing: border-box;}
 form {
@@ -73,7 +88,7 @@ button {
 	width: 100%;
 	height: 80px;
 }
-ul{
+.ulmenu{
 	display: flex;
     justify-content: space-between;
     align-items: center;
@@ -92,3 +107,7 @@ ul{
 .icon-search11{
 	color: rgb(255, 255, 255);
 }
+.titlecard_path{
+	color: #000;
+}
+@import "footer";
