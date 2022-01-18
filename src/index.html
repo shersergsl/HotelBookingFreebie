@@ -6,17 +6,8 @@
 	<body>
 		@@include('html/header.html',{})
 		<main>
-			<div class="titlecardblock">
-				<div class="markup">
-					<div class="titlecard_path">
-						Home / Flash Offers / Grand Hilton Hotel
-					</div>
-					<div class="grandtitle">
-						<div class="title"></div>
-						<div class="balls"></div>
-					</div>
-				</div>
-			</div>
+			@@include('html/titlecardblock.html',{})
+			@@include('html/PackSumblock.html',{})
 		</main>
 		@@include('html/footer.html',{})
 		<script src="js/app.min.js"></script>
