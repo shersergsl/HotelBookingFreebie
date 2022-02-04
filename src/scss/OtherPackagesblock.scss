@@ -1,0 +1,114 @@
+h2{
+    color: #000;
+}
+.card_block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+.big_card_foto{
+    width: 364px;
+    height: 500px;
+    background-image: url('../img/Rectangle\ 20.jpg');
+    padding: 26px 0;
+}
+.card_foto{
+    width: 350px;
+    height: 250px;
+    padding: 26px 0;
+}
+.foto1{
+    background-image: url('../img/Rectangle\ 20\ \(1\).jpg');
+}
+.foto2{
+    background-image: url('../img/Rectangle\ 20\ \(3\).jpg');
+}
+.foto3{
+    background-image: url('../img/Rectangle\ 20\ \(2\).jpg');
+}
+.foto4{
+    background-image: url('../img/Rectangle\ 20\ \(4\).jpg');
+}
+.FlashOffer_big{
+    background: #EC1F46;
+    width: 95px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 0px 4px 4px 0px;
+}
+.big_card_info{
+    background: #0A223D;
+    width: 364px;
+    height: 500px;
+    padding: 45px 21px 0 44px ;
+}
+.card_info{
+    background: #0A223D;
+    width: 350px;
+    height: 250px;
+    padding: 30px 21px 0 21px ;
+    border-radius: 0px 0px 8px 8px;
+}
+.big_card{
+    display: flex;
+}
+.big_card_txt{
+    margin: 0 0 80px 0;
+}
+.big_card_contakt{
+    margin: 0 0 45px 0;
+}
+.card_contakt{
+    margin: 0 0 30px 0;
+}
+.icon-gps2{
+    margin: 0 0 10px 0;
+    font-size: 12px;
+}
+.icon-user{
+    margin: 0 0 10px 0;
+}
+.icon-home{
+    margin: 0 0 10px 0;
+}
+.old_price{
+    margin: 0 0 10px 0;
+    text-decoration:line-through;
+}
+.price{
+    margin: 0 0 10px 0;
+    font-weight: bold;
+    font-size: 24px;
+}
+.priceButon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: flex-end;
+}
+.title_txt{
+    margin: 0 0 10px 0;
+}
+.trucardblock{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: flex-end;
+}
+.card{
+    margin: 0 0 30px 0;
+}.buton_o{
+    font-size: 12px;
+    line-height: 40px;
+    width: 120px;
+    height: 40px;
+    left: 735px;
+    top: 5157px;
+    background: #EC1F46;
+    border-radius: 4px;
+    text-align: center;
+}
