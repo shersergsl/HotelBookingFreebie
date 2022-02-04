@@ -8,8 +8,6 @@
     border-radius: 8px;
 }
 .Package_big{
-    width: 1107px;
-    min-height: 550px;
     background: rgb(255, 255, 255);
     border-radius: 8px;
 }
@@ -42,6 +40,7 @@ h5{
 }
 .ul{
     display: flex;
+    flex-wrap: wrap;
 }
 .li{
     font-size: 12px;
